@@ -13,13 +13,13 @@ In order to monitor and assess our bank's lending activities and performance, we
    - _Average Debt-to-Income Ratio (DTI)_: Evaluating the average DTI for our borrowers helps us gauge their financial health. We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
      
 ***Good Loan v Bad Loan KPI's:***  
-* Good Loan KPIs
+* _**Good Loan KPIs**_
     - _Good Loan Applications Percentage_: We need to calculate the percentage of loan applications classified as 'Good Loans.' This category includes loans with a loan status of 'Fully Paid' and 'Current.'
     - _Good Loan Applications_: Identifying the total number of loan applications falling under the 'Good Loan' category, which consists of loans with a loan status of 'Fully Paid' and 'Current.'
     - _Good Loan Dunded Amount_: Determining the total amount of funds disbursed as 'Good Loans.' This includes the principal amounts of loans with a loan status of 'Fully Paid' and 'Current.'
     - _Good Loan Total Received Amount_: Tracking the total amount received from borrowers for 'Good Loans,' which encompasses all payments made on loans with a loan status of 'Fully Paid' and 'Current.'
 
-* Bad Loan KPIs
+* _**Bad Loan KPIs**_
     - _Bad Loan Applications Percentage_: Calculating the percentage of loan applications categorized as 'Bad Loans.' This category specifically includes loans with a loan status of 'Charged Off.'
     - _Bad Loan Applications_: Identifying the total number of loan applications categorized as 'Bad Loans,' which consists of loans with a loan status of 'Charged Off.'
     - _Bad Loan Dunded Amount_: Determining the total amount of funds disbursed as 'Bad Loans.' This comprises the principal amounts of loans with a loan status of 'Charged Off.'
