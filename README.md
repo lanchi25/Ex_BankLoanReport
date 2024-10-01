@@ -80,7 +80,7 @@ In our Bank Loan Report project, we recognize the need for a comprehensive 'Deta
 => Objective: The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights into our loan portfolio, borrower profiles, and loan performance.
 
 
-## 2. QUERY SENTENCES    
+## 2. SQL QUERY    
 
 ### A. Dashboard 1: SUMMARY  
 
