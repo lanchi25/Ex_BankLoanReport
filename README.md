@@ -299,9 +299,9 @@ _Bad Loan Amount Received_
 	GROUP BY home_ownership
 	ORDER BY home_ownership  
 
-**_Note: We have applied multiple Filters on all the dashboards. You can check the results for the filters as well by modifying the query and comparing the results.
+**_Note: We have applied multiple Filters on all the dashboards. You can check the results for the filters as well by modifying the query and comparing the results._**    
 For e.g
-See the results when we hit the Grade A in the filters for dashboards._**  
+See the results when we hit the Grade A in the filters for dashboards.  
   
 
 	SELECT 
