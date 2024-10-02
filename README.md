@@ -3,7 +3,7 @@
 ## 1. PROBLEM STATEMENT
 
 ### Dashboard 1: SUMMARY
-In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help us make data-driven decisions, trac our loan porfolio'health, and identify trends that can inform our lending strategies.
+In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help us make data-driven decisions, track our loan porfolio'health, and identify trends that can inform our lending strategies.
 
 ***Key Performance Indicators (KPIs) Requirements:***
    - _Total Loan Applications_: We need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
