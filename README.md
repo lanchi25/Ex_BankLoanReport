@@ -5,6 +5,8 @@
 ### Dashboard 1: SUMMARY
 In order to monitor and assess my bank's lending activities and performance, I need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help make data-driven decisions, track loan porfolio'health, and identify trends that can inform lending strategies.
 
+![Example of Summary Dashboard](https://github.com/user-attachments/assets/d564bb79-7964-4869-9e81-670bf9cc92f7)
+
 ***Key Performance Indicators (KPIs) Requirements:***
    - _Total Loan Applications_: I need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
    - _Total Funded Amount_: Understanding the total amount of funds disbursed as loans is crucial. I also want to keep an eye on the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
@@ -30,7 +32,11 @@ In order to gain a comprehensive overview of our lending operations and monitor 
 
 
 ### Dashboard 2: OVERVIEW
-In our Bank Loan Report project, we aim to visually represent critical loan-related metrics and trends using a variety of chart types. These charts will provide a clear and insightful view of our lending operations, facilitating data-driven decision-making and enabling us to gain valuable insights into various loan parameters. Below are the specific chart requirements:  
+In our Bank Loan Report project, we aim to visually represent critical loan-related metrics and trends using a variety of chart types. These charts will provide a clear and insightful view of our lending operations, facilitating data-driven decision-making and enabling us to gain valuable insights into various loan parameters. 
+
+![Example of Overview Dashboard](https://github.com/user-attachments/assets/a5fcb499-8c7b-42ff-8184-95d3ad6dbd75)
+
+Below are the specific chart requirements:  
 
 ***Monthly Trends by Issue Date (Line Chart):***  
 - _Chart Type_: Line Chart  
@@ -76,6 +82,8 @@ In our Bank Loan Report project, we aim to visually represent critical loan-rela
 
 ### Dashboard 3: DETAILS
 In our Bank Loan Report project, we recognize the need for a comprehensive 'Details Dashboard' that provides a consolidated view of all the essential information within our loan data. This Details Dashboard aims to offer a holistic snapshot of key loan-related metrics and data points, enabling users to access critical information efficiently.  
+
+![Example of Detail Dashborad](https://github.com/user-attachments/assets/5373620c-9a94-4f18-8f63-52f8d095fd14)
 
 => Objective: The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights into our loan portfolio, borrower profiles, and loan performance.
 
