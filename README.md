@@ -3,18 +3,18 @@
 ## 1. PROBLEM STATEMENT
 
 ### Dashboard 1: SUMMARY
-In order to monitor and assess our bank's lending activities and performance, we need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help us make data-driven decisions, track our loan porfolio'health, and identify trends that can inform our lending strategies.
+In order to monitor and assess my bank's lending activities and performance, I need to create a comprehensive Bank Loan Report. This report aims to provide insights into key loan-related metrics and their changes over time. The report will help make data-driven decisions, track loan porfolio'health, and identify trends that can inform lending strategies.
 
 ***Key Performance Indicators (KPIs) Requirements:***
-   - _Total Loan Applications_: We need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
-   - _Total Funded Amount_: Understanding the total amount of funds disbursed as loans is crucial. We also want to keep an eye on the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
-   - _Total Amount Received_: Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment. We should analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes.
-   - _Average Interest Rate_: Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into our lending portfolio's overall cost.
-   - _Average Debt-to-Income Ratio (DTI)_: Evaluating the average DTI for our borrowers helps us gauge their financial health. We need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
+   - _Total Loan Applications_: I need to calculate the total number of loan applications received during a specified period. Additionally, it is essential to monitor the Month-to-Date (MTD) Loan Applications and track changes Month-over-Month (MoM).
+   - _Total Funded Amount_: Understanding the total amount of funds disbursed as loans is crucial. I also want to keep an eye on the MTD Total Funded Amount and analyse the Month-over-Month (MoM) changes in this metric.
+   - _Total Amount Received_: Tracking the total amount received from borrowers is essential for assessing the bank's cash flow and loan repayment. I should analyse the Month-to-Date (MTD) Total Amount Received and observe the Month-over-Month (MoM) changes.
+   - _Average Interest Rate_: Calculating the average interest rate across all loans, MTD, and monitoring the Month-over-Month (MoM) variations in interest rates will provide insights into lending portfolio's overall cost.
+   - _Average Debt-to-Income Ratio (DTI)_: Evaluating the average DTI for borrowers helps us gauge their financial health. I need to compute the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuations.
      
 ***Good Loan v Bad Loan KPI's:***  
 * _**Good Loan KPIs**_
-    - _Good Loan Applications Percentage_: We need to calculate the percentage of loan applications classified as 'Good Loans.' This category includes loans with a loan status of 'Fully Paid' and 'Current.'
+    - _Good Loan Applications Percentage_: I need to calculate the percentage of loan applications classified as 'Good Loans.' This category includes loans with a loan status of 'Fully Paid' and 'Current.'
     - _Good Loan Applications_: Identifying the total number of loan applications falling under the 'Good Loan' category, which consists of loans with a loan status of 'Fully Paid' and 'Current.'
     - _Good Loan Dunded Amount_: Determining the total amount of funds disbursed as 'Good Loans.' This includes the principal amounts of loans with a loan status of 'Fully Paid' and 'Current.'
     - _Good Loan Total Received Amount_: Tracking the total amount received from borrowers for 'Good Loans,' which encompasses all payments made on loans with a loan status of 'Fully Paid' and 'Current.'
