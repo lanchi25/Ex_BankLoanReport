@@ -94,8 +94,9 @@ _**This is illustration of Details Sheet:**_
 ## 2. SQL QUERY    
 
 ### A. Dashboard 1: SUMMARY  
-
-**KPI's:**  
+<details>
+<summary>KPI's:</summary>  
+	
 _Total Loan Applications_  
 
 	SELECT COUNT(id) AS Total_Applications FROM bank_loan_data  
@@ -162,12 +163,13 @@ _MTD Avg DTI_
 	WHERE MONTH(issue_date) = 12    
 
 _PMTD Avg DTI_    
-	
+
  	SELECT AVG(dti)*100 AS PMTD_Avg_DTI FROM bank_loan_data  
 	WHERE MONTH(issue_date) = 11    
-  
-  
-**GOOD LOAN ISSUED**  
+</details>
+
+<details>
+<summary>GOOD LOAN ISSUED</summary>    
 
 _Good Loan Percentage_    
 
@@ -213,9 +215,10 @@ _Bad Loan Amount Received_
 
 	SELECT SUM(total_payment) AS Bad_Loan_amount_received FROM bank_loan_data  
 	WHERE loan_status = 'Charged Off'    
+</details>
 
-
-**LOAN STATUS**  
+<details>
+<summary>LOAN STATUS</summary>  
 1.   
 
 	SELECT    
@@ -239,11 +242,13 @@ _Bad Loan Amount Received_
 	FROM bank_loan_data
 	WHERE MONTH(issue_date) = 12 
 	GROUP BY loan_status
+</details>
 
 
 ### B. Dashboard 2: OVERVIEW  
+<details>
 
-**MONTH**  
+<summary>MONTH</summary>  
 	
  	SELECT 
 		MONTH(issue_date) AS Month_Munber, 
@@ -254,8 +259,10 @@ _Bad Loan Amount Received_
 	FROM bank_loan_data
 	GROUP BY MONTH(issue_date), DATENAME(MONTH, issue_date)
 	ORDER BY MONTH(issue_date)  
+</details>
 
-**STATE**  
+<details>
+<summary>STATE</summary>  
 
 	SELECT 
 		address_state AS State, 
@@ -266,7 +273,10 @@ _Bad Loan Amount Received_
 	GROUP BY address_state
 	ORDER BY address_state  
 
-**TERM**  
+</details>
+
+<details>
+<summary>TERM</summary>  
 
 	SELECT 
 		term AS Term, 
@@ -277,7 +287,10 @@ _Bad Loan Amount Received_
 	GROUP BY term
 	ORDER BY term  
 
-**EMPLOYEE LENGTH**  
+</details>
+
+<details>
+<summary>EMPLOYEE LENGTH</summary>  
 
 	SELECT 
 		emp_length AS Employee_Length, 
@@ -288,7 +301,10 @@ _Bad Loan Amount Received_
 	GROUP BY emp_length
 	ORDER BY emp_length  
 
-**PURPOSE**  
+</details>
+
+<details>
+<summary>PURPOSE</summary>  
 
 	SELECT 
 		purpose AS PURPOSE, 
@@ -299,7 +315,10 @@ _Bad Loan Amount Received_
 	GROUP BY purpose
 	ORDER BY purpose  
 
-**HOME OWNERSHIP**  
+</details>
+
+<details>
+<summary>HOME OWNERSHIP</summary>  
 
 	SELECT 
 		home_ownership AS Home_Ownership, 
@@ -309,9 +328,11 @@ _Bad Loan Amount Received_
 	FROM bank_loan_data
 	GROUP BY home_ownership
 	ORDER BY home_ownership  
+</details>
 
 **_Note: We have applied multiple Filters on all the dashboards. You can check the results for the filters as well by modifying the query and comparing the results._**    
-For e.g
+<details>
+<summary>For e.g</summary>
 See the results when we hit the Grade A in the filters for dashboards.  
   
 
@@ -325,7 +346,7 @@ See the results when we hit the Grade A in the filters for dashboards.
 	GROUP BY purpose
 	ORDER BY purpose
 
-
+</details>
 
 
 
